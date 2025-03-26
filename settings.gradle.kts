@@ -20,6 +20,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "HiltSamplesPOC"
-include(":app")
-include(":coroutine-common")
-include(":network-module")
+include(
+    ":app",
+    ":coroutine-common",
+    ":network-module"
+)
